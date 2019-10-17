@@ -37,6 +37,7 @@ func main() {
 	a = &v // v *Vertex 实现了Abser
 	fmt.Println("a =", a, "a.Abs() =", a.Abs())
 
+	fmt.Println("v =", v, "v.Abs() =", v.Abs())
 	/*
 		a = v // v Vertex 没有实现了Abser, 执行会报错
 		fmt.Println("a =", a, "a.Abs() =", a.Abs())
